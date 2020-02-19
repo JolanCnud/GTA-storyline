@@ -3,6 +3,11 @@ body{
   background-repeat: no-repeat;
 }
 
+li{
+  font-size:30px;
+  font-family: 'Sriracha', cursive;
+}
+
 h1{
   font-size: 30px;
   font-family: 'Sriracha', cursive;
@@ -14,4 +19,8 @@ img{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+video{
+  margin-left: 650px;
 }
