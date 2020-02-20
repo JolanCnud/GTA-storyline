@@ -1,5 +1,10 @@
 <?php
 	require '../required/header.php';
+
+	if ($_SESSION['prev'] != 'beg'){
+		header("Location: ../index.php");
+    		exit();
+	}
 ?>
    
 	<style>
