@@ -25,8 +25,8 @@
        
         <ul>
         
-        <li> Take a boat   <a  href="boat.php"><img  style= "width: 415px; padding-left: 10px" src=../images/boat.png></a></li>
-        <li>Take a chopper<a  href="chopper.php"><img src=../images/78-785740_helicopter-clipart-by-dg-ra-silhouette-helicopter-clip.png></a></li>
+        <li> Take a boat   <a  href="boat.php" onclick="<?php $_SESSION['prev'] = 'beg'; ?>"><img  style= "width: 415px; padding-left: 10px" src=../images/boat.png></a></li>
+        <li>Take a chopper<a  href="chopper.php" onclick="<?php $_SESSION['prev'] = 'beg'; ?>"><img src=../images/78-785740_helicopter-clipart-by-dg-ra-silhouette-helicopter-clip.png></a></li>
         
     </ul>
 
