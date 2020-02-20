@@ -1,6 +1,13 @@
 <?php
 	require 'required/header.php';
-	include 'required/clear.php;
+	
+	for ($x = 0; true; $x++) {
+		if (isset($_SESSION["choice{$x}"])){
+			$_SESSION["choice{$x}"] = null;
+		} else {
+		    break;
+		}	
+	}
 ?>
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
