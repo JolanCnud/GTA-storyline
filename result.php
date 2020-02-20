@@ -4,7 +4,8 @@
 ?>
 
   <?php
-    echo "Tree: ".$_SESSION['choice1']." --> ".$_SESSION['choice2'];
+    $next = " --> ";
+    echo "Timeline: ".$_SESSION['CHOICE0'].$next.$_SESSION['choice1'].$next.$_SESSION['choice2'];
   ?>
 
 <?php
