@@ -31,7 +31,7 @@ XAMPP komt inbegrepen met een hoop features zoals:
 
 4. Start de Apache service
 
-5. Klik op config (Apache)
+5. Klik op admin (Apache)
 
 6. Je browser opent op localhost/apacheding
 
