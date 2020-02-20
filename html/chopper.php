@@ -17,8 +17,8 @@
        
         <ul>
         
-        <li> Go to mount Chaliad <a  href="Mount.html"><img  style= "width: 415px; padding-left: 10px" src=../images/Mount.jpg></a></li>
-        <li>Go to the Maze Bank's roof<a  href="Maze.html"><img style= "width: 280px;" src=../images/gta-maze-bank-tower-aerial.jpg></a></li>
+        <li> Go to mount Chaliad <a  href="Mount.php"><img  style= "width: 415px; padding-left: 10px" src=../images/Mount.jpg></a></li>
+        <li>Go to the Maze Bank's roof<a  href="Maze.php"><img style= "width: 280px;" src=../images/gta-maze-bank-tower-aerial.jpg></a></li>
         
     </ul>
         
