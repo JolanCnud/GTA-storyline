@@ -5,9 +5,6 @@
 		header("Location: ../index.php");
     		exit();
 	}
-	
-	$_SESSION['prev'] = null;
-
 ?>
 	
 	<style>
