@@ -17,8 +17,8 @@
        
         <ul>
         
-        <li> Go to the sea  <a  href="sea.php"><img  style= "width: 450px; padding-left: 10px" src=../images/PacificOcean-GTAV.jpg></a></li>
-        <li>Get on the land<a  href="land.php"><img style= "width: 450px;" src=../images/LandActDam-GTAV-East.png></a></li>
+        <li> Go to the sea  <a  href="sea.php" onclick="<?php $_SESSION['prev'] = 'boat'; ?>"><img  style= "width: 450px; padding-left: 10px" src=../images/PacificOcean-GTAV.jpg></a></li>
+        <li>Get on the land<a  href="land.php" onclick="<?php $_SESSION['prev'] = 'boat'; ?>"><img style= "width: 450px;" src=../images/LandActDam-GTAV-East.png></a></li>
         
     </ul>
         
