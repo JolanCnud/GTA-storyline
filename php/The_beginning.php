@@ -1,9 +1,4 @@
 <?php
-	if (!isset($_POST['start-link'])){
-		header("Location: ../index.php");
-    		exit();
-	}
-
 	require '../required/header.php';
 ?>
 	
