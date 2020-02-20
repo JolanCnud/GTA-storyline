@@ -1,5 +1,6 @@
 <?php
 	require 'required/header.php';
+	include 'required/clear.php';
 ?>
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
