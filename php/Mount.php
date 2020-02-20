@@ -17,8 +17,8 @@
        
         <ul>
         
-        <li>Go lounging<a  href="Lounge.php"><img  style= "width: 415px; padding-left: 10px" src=../images/Lounge.png></a></li>
-        <li>Get on your desktop<a  href="Desktop.php"><img style= "width: 280px;" src=../images/desktop.webp></a></li> 
+        <li>Go lounging<a  href="Lounge.php" onclick="<?php $_SESSION['prev'] = 'mount'; ?>"><img  style= "width: 415px; padding-left: 10px" src=../images/Lounge.png></a></li>
+        <li>Get on your desktop<a  href="Desktop.php" onclick="<?php $_SESSION['prev'] = 'mount'; ?>"><img style= "width: 280px;" src=../images/desktop.webp></a></li> 
         
     </ul>
 
