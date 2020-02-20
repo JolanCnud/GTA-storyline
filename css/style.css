@@ -7,6 +7,8 @@ body{
 li{
   font-size:30px;
   font-family: 'Sriracha', cursive;
+  text-align: center;
+  list-style-type: none;
 }
 
 h1{
