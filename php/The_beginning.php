@@ -5,6 +5,8 @@
 		header("Location: ../index.php");
     		exit();
 	}
+
+	$_SESSION['choice0'] = 'yacht';
 ?>
 	
 	<style>
