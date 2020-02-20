@@ -5,6 +5,9 @@
 		header("Location: ../index.php");
     		exit();
 	}
+	
+	$_SESSION['choice2'] = 'mount';
+
 ?>
 		
 	<style>
