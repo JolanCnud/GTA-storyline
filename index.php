@@ -1,12 +1,8 @@
 <?php
 	require 'required/header.php';
 	
-	for ($x = 0; true; $x++) {
-		if (isset($_SESSION["choice{$x}"])){
-			$_SESSION["choice{$x}"] = null;
-		} else {
-		    break;
-		}	
+	for ($x = 0; isset($_SESSION["choice{$x}"]); $x++) {
+		$_SESSION["choice{$x}"] = null;
 	}
 ?>
 
