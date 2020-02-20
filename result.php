@@ -1,11 +1,17 @@
-
 <?php
 	require 'required/header.php';
 ?>
 
   <?php
-    $next = " --> ";
-    echo "Timeline: ".$_SESSION['choice0'].$next.$_SESSION['choice1'].$next.$_SESSION['choice2'];
+    echo "<h1>Timeline:</h1>";
+    for ($x = 0; true; $x++) {
+        if (isset($_SESSION["choice{$x}"])){
+		echo "<br>";
+		echo '<li>'.$_SESSION["choice{$x}"].'</li>';
+        } else {
+		exit();
+	}	
+    }
   ?>
 
 <?php
