@@ -1,5 +1,13 @@
 <?php
 	require '../required/header.php';
+
+	if ($_SESSION['prev'] != 'index'){
+		header("Location: ../index.php");
+    		exit();
+	}
+	
+	$_SESSION['prev'] = null;
+
 ?>
 	
 	<style>
