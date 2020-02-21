@@ -25,5 +25,6 @@ img{
 }
 
 video{
-  margin-left: 500px;
+  display:block;
+  margin: auto;
 }
