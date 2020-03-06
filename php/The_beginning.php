@@ -18,7 +18,7 @@
 	</style>
 	
         <h1>You're Carl, an American thief who's very rich and you're about to wake up on your yacht </h1>
-        <video width= 30%  src="../videos/openingmp4.mp4" autoplay controls >
+        <video width= 30%  src="../videos/TheBeginning.mp4" autoplay controls >
         </video>
         
        
